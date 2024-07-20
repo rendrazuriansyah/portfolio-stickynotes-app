@@ -1,29 +1,23 @@
-# stickynote-vue
+# Sticky Notes
 
-This template should help get you started developing with Vue 3 in Vite.
+A simple sticky notes app built with Vue 3 and Vite.
 
-## Recommended IDE Setup
+## Features
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+-   Add a new memo by clicking the "+" button.
+-   Delete a memo by clicking the "x" button.
+-   Edit a memo by clicking on it.
+-   The app will save the memos to local storage.
 
-## Customize configuration
+## How to use
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+1. Clone the repository.
+2. Run `npm install` to install the dependencies.
+3. Run `npm run dev` to start the development server.
+4. Open the app in your browser at `http://localhost:5173`.
+5. Start adding memos!
 
-## Project Setup
+## Screenshots
 
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+![Screenshot 1](./screenshots/mainNote-page.png)
+![Screenshot 2](./screenshots/addNote-page.png)
